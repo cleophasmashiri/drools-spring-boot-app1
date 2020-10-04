@@ -26,7 +26,7 @@ public class DroolsConfig {
 	}
 
 	private List<String> getRuleFiles() {
-		return Arrays.asList("SuggestApplicant.drl");
+		return Arrays.asList("SuggestApplicant.drl", "ProductLabels.xls");
 	}
 
 	public KieFileSystem getFileSystem() throws IOException {
